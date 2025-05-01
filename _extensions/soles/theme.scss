@@ -2,7 +2,7 @@
 
 // Custom colours and variables
 // University of Sydney brand
-$ochre: #e64626;        // primary
+$snublue: #0F0F70;        // primary
 $charcoal: #424242;     // secondary
 $sandstone: #fcede2;    // secondary
 $jacaranda: #8f9ec9;    // tertiary
@@ -35,7 +35,7 @@ $presentation-h3-font-size: 1.2em;
 // colors
 //$body-bg: #f0f1eb !default;
 $body-color: $charcoal !default;
-$link-color: blue !default;
+$link-color: $snublue !default;
 $selection-bg: #26351c !default;
 $code-bg: $sandstone; // colour for inline code background
 $code-color: $charcoal; // colour for inline code text
@@ -61,7 +61,7 @@ $code-block-font-size: 0.7em;
   text-align: left;
 
   .title {
-    color: $ochre;
+    color: $snublue;
     font-size: 2em;
     font-weight: normal;
   }
@@ -99,12 +99,12 @@ $code-block-font-size: 0.7em;
 }
 
 .reveal h1 {
-  color: $ochre;
+  color: $snublue;
   font-weight: normal;
 }
 
 .reveal h2 {
-  color: $ochre;
+  color: $snublue;
   font-weight: normal;
 }
 
@@ -116,7 +116,7 @@ $code-block-font-size: 0.7em;
 }
 
 .reveal h4 {
-  color: $ochre;
+  color: $snublue;
   font-weight: normal;
   margin-top: 1.25em;
 }
