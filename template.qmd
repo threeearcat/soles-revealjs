@@ -1,9 +1,9 @@
 ---
 title: Quarto `reveal.js` template
-subtitle: School of Life and Environmental Sciences (SOLES)
+subtitle: Dept. of Computer Science and Engineering
 author:
-  - name: Januar Harianto
-    affiliations: The University of Sydney
+  - name: Dae R. Jeong
+    affiliations: Seoul National University
 embed-resources: true # embed resources into single HTML file -- enable when ready to publish
 # NOTE: please check _quarto.yml file for more options
 ---
