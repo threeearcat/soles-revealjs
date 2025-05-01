@@ -1,5 +1,7 @@
 # SOLES reveal.js Quarto template
 
+**Credits to https://github.com/usyd-soles-edu/soles-revealjs**
+
 [![CC BY 4.0][cc-by-shield]][cc-by]
 ![Progress](https://progress-bar.dev/90/?title=progress)
 
@@ -16,7 +18,7 @@ The simplest way to use this template is to click on the green "**Code**" button
 If you are well-versed in Quarto and the CLI, run the following command in your terminal to use this template directly:
 
 ```sh
-quarto use template usyd-soles-edu/soles-revealjs
+quarto use template threeearcat/soles-revealjs
 ```
 
 If you know Git, click on the green "**Use this template**" button above to create a new repository based on this template. An advantage in using this method is that you can import all branches from this repository, setting yourself up to publish to GitHub Pages without any further configuration.
