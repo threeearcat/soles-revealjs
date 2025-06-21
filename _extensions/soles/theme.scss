@@ -9,6 +9,7 @@ $jacaranda: #8f9ec9;    // tertiary
 $jaca-lite: #dde2ef;    // tertiary
 $heri-rose: #daa8a2;    // tertiary
 $eucalypt: #71a499;     // tertiary
+$red: #920307;
 $right-arrow: "\279F"; // Unicode character for right arrow
 
 // fonts
@@ -26,11 +27,11 @@ $font-family-monospace: "JetBrains Mono", monospace !default;
 $presentation-heading-color: $charcoal !default;
 $presentation-heading-font-weight: lighter;
 $presentation-heading-line-height: 2;
-// $presentation-block-margin: 28px;
+$presentation-block-margin: -20px;
 $presentation-font-size-root: 22px;
 $presentation-h1-font-size: 2em;
-$presentation-h2-font-size: 1.6em;
-$presentation-h3-font-size: 1.2em;
+$presentation-h2-font-size: 2.2em;
+$presentation-h3-font-size: 1.5em;
 
 // colors
 //$body-bg: #f0f1eb !default;
@@ -109,6 +110,7 @@ $code-block-font-size: 0.7em;
 .reveal h2 {
   color: $snublue;
   font-weight: normal;
+  text-align: center;
 }
 
 .reveal h3 {
@@ -116,6 +118,7 @@ $code-block-font-size: 0.7em;
   // font-style: italic;
   font-weight: 900;
   margin-top: 1.25em;
+  margin-bottom: 0;
 }
 
 .reveal h4 {
@@ -158,7 +161,7 @@ div {
 // unordered lists
 
 .reveal .slide ul, .reveal .slide ol {
-  margin-bottom: 0.5em;
+  // margin-bottom: 0.5em;
   margin-top: auto;
 }
 
@@ -170,8 +173,6 @@ div {
     color: mix($eucalypt, white, 70%);
   }
 }
-
-
 
 // style list items with arrows
 .reveal ul ul {
@@ -197,3 +198,30 @@ div {
     color: $eucalypt;
   }
 }
+
+.subline {
+  display: block;
+  line-height: 1;
+}
+
+.text_emphasize {
+  font-weight: bold;
+  color: $red;
+}
+
+.text_font_enlarge {
+  font-size: 1.8em;
+}
+
+
+.callout_center {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.spaced-list li {
+  margin-bottom: 0.5em;
+}
+
+// Slide specific styles
